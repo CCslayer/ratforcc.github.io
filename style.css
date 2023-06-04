@@ -13,6 +13,14 @@ body {
   overflow: hidden;
 }
 
+.myadcash {
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  top: 600px;
+  right: 50px;
+}
+
 .fsociety-hat {
   position: fixed;
   top: 74px;
