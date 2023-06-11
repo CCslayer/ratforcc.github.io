@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="/gorseller/icon.jpg" />
+    <title>RatForCC</title>
+</head>
+
+<body>
+    <script>
+        function toggleKategoriler() {
+            var kategoriler = document.getElementById('kategoriler');
+            kategoriler.classList.toggle('open');
+        }
+        addEventListener('click', function (event) {
+            var target = event.target;
+            if (target.classList.contains('kategoriler-btn') || target.classList.contains('kategoriler')) {
+                return;
+            }
+            var kategoriler = document.getElementById('kategoriler');
+            kategoriler.classList.remove('open');
+        });
+    </script>
+    <div class="metin-back">
+        <div class="metin-taban">
+            <article>
+                </ul>
+                <p class="isletim-sistemleri-title">Isletim Sistemleri</p>
+                <div class="isletim sistemleri">
+                    <div class="kali">
+                        <h1>Kali Linux</h1>
+                        <img src="/gorseller/kali.jpg">
+                        <p>Kali Linux, siber guvenlik ve penetrasyon testi alaninda uzmanlasmis bir isletim sistemidir.
+                            Onceden "BackTrack" olarak bilinen Kali Linux, Debian tabanlidir ve bircok guvenlik aracini
+                            icerisinde barindirir. Kali Linux, ag kesfi, saldiri simulasyonu, veri kurtarma, parola
+                            kirma ve diger bircok siber guvenlik konusunda kullanilabilen bir dizi arac saglar.
+                            Genellikle etik hackerlar, siber guvenlik uzmanlari ve pentesterlar tarafindan tercih
+                            edilir. Kali Linux, kullanicilarina guclu bir arac seti sunar ve siber guvenlik testleri
+                            icin onemli bir kaynak olarak kabul edilir.</p>
+                    </div>
+                    <div class="nebios">
+                        <h1>NebiOS [ Adminin Onerisi ]</h1>
+                        <img src="/gorseller/nebios.png">
+                        <p>NebiOS, kullanicilarina Ubuntu tabanli bir Linux isletim sistemi sunarak, guclu ve guvenilir
+                            bir platform saglamaktadir. Bu isletim sistemi, kullanici dostu arayuzuyle birlikte hizli ve
+                            sorunsuz bir deneyim sunmayi hedeflemektedir. Ayrica, NebiOS'un estetik animasyonlari ve
+                            gorsel efektleri, kullanicilarin isletim sistemini kullanirken keyifli bir deneyim
+                            yasamasini saglamaktadir.
+
+                            NebiOS, ozellikle oyun performansi olarak ubuntu gibi buyuk isletim sistemlerini geride birakmis, gunluk kullanim ve programlama gibi cesitli alanlarda ihtiyac
+                            duyulan islevselligi sunan bircok uygulama ve arac icermektedir. Bu uygulamalar,
+                            kullanicilarin verimli bir sekilde calismasini ve islerini kolaylastirmasini saglamaktadir.
+                            Ayrica, NebiOS'un guclu yazilim gelistirme araclari, programcilara yeni projeler olusturma
+                            ve gelistirme konusunda buyuk kolaylik saglamaktadir.
+
+                            NebiOS'un gelistirici ekibi, kullanici geri bildirimlerine onem vererek surekli olarak
+                            isletim sisteminin performansini ve kullanici deneyimini gelistirmek icin calismaktadir.</p>
+                    </div>
+                    <div class="ubuntu">
+                        <h1>Ubuntu</h1>
+                        <img src="/gorseller/ubuntu.jpg">
+                        <p>Ubuntu, populer bir Linux tabanli isletim sistemidir. Debian tabanli olan Ubuntu, kullanici
+                            dostu bir arayuz ve genis bir yazilim deposu sunar. Ubuntu, masaustu ve sunucu surumleri
+                            olarak mevcuttur. Masaustu surumu, gunluk kullanim icin idealdir ve kolayca
+                            ozellestirilebilir. Sunucu surumu ise sunucu altyapisi saglamak ve web sunuculari,
+                            veritabani sunuculari, dosya sunuculari vb. gibi gorevleri yerine getirmek uzere optimize
+                            edilmistir.
+
+                            Ubuntu, genis bir topluluga sahip olup, kullanicilar icin cesitli destek ve kaynaklar sunar.
+                            Ayni zamanda, Ubuntu'nun LTS (Long Term Support - Uzun Sureli Destek) surumleri, uzun vadeli
+                            guncelleme ve destek politikasi saglar. Bu, isletim sistemini uzun sureli kullanim icin
+                            uygun kilar.</p>
+                    </div>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="navbar-nav">
+        <div class="icon">
+            <a href="/index.html">
+                <img src="/gorseller/fsociety.png">
+            </a>
+            <p class="icon-text">RatForCC</p>
+        </div>
+        <div class="navbar-buttons">
+            <a style="color: #8A1616;" href="/index.html"><button>Ana Sayfa</button></a>
+            <a style="color: #8A1616;" href="/uyeler.html"><button>Uyeler</button></a>
+            <a style="color: #8A1616;" href="/sunucular.html"><button>Sunucular</button></a>
+        </div>
+        <div class="category-background">
+            <button class="kategoriler-btn" onclick="toggleKategoriler()">Kategoriler</button>
+            <img class="menu-icon" src="/gorseller/menu.png">
+        </div>
+        <ul class="kategoriler" id="kategoriler">
+            <div class="button-texts">
+                <li><a href="/hacker-cesitleri.html"><button>Hacker Cesitleri</button></a></li>
+                <br><br><br>
+                <li><a href="/isletim-sistemleri.html"><button>Isletim Sistemleri</button></a></li>
+                <br><br><br>
+                <li><a href="/gunluk-shell.html"><button>Gunluk Shell</button></a></li>
+                <br><br><br>
+                <li><button><a href="#"><a>Yakinda</button></li>
+                <br><br><br>
+                <li><button><a href="#"><a>Yakinda</button></li>
+                <br><br><br>
+                <li><button><a href="#"><a>Yakinda</button></li>
+                <br><br><br>
+                <li><button><a href="#"><a>Yakinda</button></li>
+            </div>
+        </ul>
+    </div>
+</body>
+
+</html>

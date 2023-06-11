@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="/gorseller/icon.jpg" />
+    <title>RatForCC</title>
+</head>
+
+<body>
+    <script>
+        function toggleKategoriler() {
+            var kategoriler = document.getElementById('kategoriler');
+            kategoriler.classList.toggle('open');
+        }
+        addEventListener('click', function (event) {
+            var target = event.target;
+            if (target.classList.contains('kategoriler-btn') || target.classList.contains('kategoriler')) {
+                return;
+            }
+            var kategoriler = document.getElementById('kategoriler');
+            kategoriler.classList.remove('open');
+        });
+    </script>
+    <div class="metin-back">
+        <div class="metin-taban">
+            <article>
+                </ul>
+                <p class="hacker-cesitleri-title">Hacker Cesitleri</p>
+                <div class="hacker-cesitleri">
+                    <div class="white-hat">
+                        <h1>Beyaz Sapkali Hacker</h1>
+                        <img src="/gorseller/white-hat.jpg">
+                        <p>Beyaz sapkali hackerlar, bilisim sistemlerindeki guvenlik aciklarini tespit etmek ve onlari
+                            gidermek icin calisan etik hackerlardir. isverenlerinin veya musterilerinin izniyle
+                            calisirlar ve genellikle aglarin ve sistemlerin guvenligini artirmak icin penetrasyon
+                            testleri yaparlar. Genellikle sertifikali ve uzman kisilerdir ve bilgi teknolojileri
+                            guvenligi konusunda derin bir bilgi birikimine sahiptirler.
+
+                            
+
+                            Beyaz sapkali hackerlar, aglarda ve sistemlerde guvenlik aciklarini tespit etmek icin farkli
+                            teknikler kullanir. Bu teknikler arasinda penetrasyon testleri, zafiyet taramalari, kod
+                            incelemeleri ve guvenlik denetimleri bulunur. Ayrica, guvenlik yazilimlari ve donanimlari
+                            gelistirerek, sirketlere veya kuruluslara daha guvenli bir bilisim altyapisi saglarlar.
+                            Beyaz sapkali hackerlar, siber saldirilara karsi korunma stratejileri gelistirirken,
+                            guvenlik bilincini arttirmak ve siber guvenlik alaninda farkindalik yaratmak icin de onemli
+                            bir rol oynarlar.</p>
+                    </div>
+                    <div class="black-hat">
+                        <h1>Siyah Sapkali Hacker</h1>
+                        <img src="/gorseller/black-hat.jpg">
+                        <p>Siyah sapkali hackerlar, bilisim sistemlerini izinsiz olarak hedef alarak kara-hat hackerlik
+                            faaliyetleri yuruten kisilerdir. Yasalari ihlal ederler ve genellikle kisisel kazanc veya
+                            zarar verme amaci guderler. Bilgisayar korsanlari olarak da bilinen siyah sapkali hackerlar,
+                            sistemlere yetkisiz erisim saglar, veri hirsizligi yapar, fidye yazilimlari kullanir veya
+                            sistemlere zararli yazilimlar enjekte ederler.
+
+                            Siyah sapkali hackerlar, siber suclar isleyerek, hedeflerine zarar verir veya kendilerine
+                            fayda saglarlar. Bu faaliyetler arasinda kisisel veya kurumsal veri hirsizligi, kimlik avi
+                            saldirilari, fidye yazilimlariyla santaj yapma, aglari veya web sitelerini cokertme, banka
+                            hesaplarini ele gecirme ve diger siber saldirilar yer alir. Siyah sapkali hackerlar, siber
+                            guvenlik aciklarini suiistimal ederek, hem bireysel kullanicilar hem de sirketler icin buyuk
+                            bir tehdit olustururlar. Yasalari ihlal ettikleri icin, yasalara uymayan bir sekilde calisir
+                            ve tespit edildiklerinde hukuki yaptirimlarla karsilasabilirler.</p>
+                    </div>
+                    
+                </div>
+            </article>
+        </div>
+    </div>
+    <div class="navbar-nav">
+        <div class="icon">
+            <a href="/index.html">
+                <img src="/gorseller/fsociety.png">
+            </a>
+            <p class="icon-text">RatForCC</p>
+        </div>
+        <div class="navbar-buttons">
+            <a style="color: #8A1616;" href="/index.html"><button>Ana Sayfa</button></a>
+            <a style="color: #8A1616;" href="/uyeler.html"><button>Uyeler</button></a>
+            <a style="color: #8A1616;" href="/sunucular.html"><button>Sunucular</button></a>
+        </div>
+        <div class="category-background">
+            <button class="kategoriler-btn" onclick="toggleKategoriler()">Kategoriler</button>
+            <img class="menu-icon" src="/gorseller/menu.png">
+        </div>
+        <ul class="kategoriler" id="kategoriler">
+            <div class="button-texts">
+                <li><a href="/hacker-cesitleri.html"><button>Hacker Cesitleri</button></a></li>
+                <br><br><br>
+                <li><a href="/isletim-sistemleri.html"><button>Isletim Sistemleri</button></a></li>
+                <br><br><br>
+                <li><a href="/gunluk-shell.html"><button>Gunluk Shell</button></a></li>
+                <br><br><br>
+                <li><button><a href="#"><a>Yakinda</button></li>
+                <br><br><br>
+                <li><button><a href="#"><a>Yakinda</button></li>
+                <br><br><br>
+                <li><button><a href="#"><a>Yakinda</button></li>
+                <br><br><br>
+                <li><button><a href="#"><a>Yakinda</button></li>
+            </div>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="/gorseller/icon.jpg" />
+    <title>RatForCC</title>
+</head>
+
+<body>
+    <script>
+        function toggleKategoriler() {
+            var kategoriler = document.getElementById('kategoriler');
+            kategoriler.classList.toggle('open');
+        }
+        addEventListener('click', function (event) {
+            var target = event.target;
+            if (target.classList.contains('kategoriler-btn') || target.classList.contains('kategoriler')) {
+                return;
+            }
+            var kategoriler = document.getElementById('kategoriler');
+            kategoriler.classList.remove('open');
+        });
+    </script>
+        <div class="metin-back">
+            <div class="metin-taban">
+                <article>
+                    <hr>
+                    <p class="web-title">Web Hacking</p>
+                    <ul class="web-zaafiyet">
+                        <li><a href="https://youtu.be/tRPDbO812EY" target="_blank">
+                                <p>OS Command Injection</p>
+                            </a></li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                        <li>
+                            <p>- - - - - - Yakinda - - - - - -</p>
+                        </li>
+                    </ul>
+                    <p class="sunucular-title">RatForCC Sunucular</p>
+                    <div class="sunucular">
+                        <ul>
+                            <p><a href="https://discord.gg/SE7Yg2jtmb" target="_blank">Discord</a></p>
+                            <p><a href="https://t.me/ratforcc" target="_blank">Telegram</a></p>
+                            <p><a href="https://youtube.com/@RatForCC" target="_blank">Youtube</a></p>
+                        </ul>
+                        
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="navbar-nav">
+            <div class="icon">
+                <a href="/index.html">
+                    <img src="/gorseller/fsociety.png">
+                </a>
+                <p class="icon-text">RatForCC</p>
+            </div>
+            <div class="navbar-buttons">
+                <a style="color: #8A1616;" href="/index.html"><button>Ana Sayfa</button></a>
+                <a style="color: #8A1616;" href="/uyeler.html"><button>Uyeler</button></a>
+                <a style="color: #8A1616;" href="/sunucular.html"><button>Sunucular</button></a>
+            </div>
+            <div class="category-background">
+                <button class="kategoriler-btn" onclick="toggleKategoriler()">Kategoriler</button>
+                <img class="menu-icon" src="/gorseller/menu.png">
+            </div>
+            <ul class="kategoriler" id="kategoriler">
+                <div class="button-texts">
+                    <li><a href="/hacker-cesitleri.html"><button>Hacker Cesitleri</button></a></li>
+                    <br><br><br>
+                    <li><a href="/isletim-sistemleri.html"><button>Isletim Sistemleri</button></a></li>
+                    <br><br><br>
+                    <li><a href="/gunluk-shell.html"><button>Gunluk Shell</button></a></li>
+                    <br><br><br>
+                    <li><button><a href="#"><a>Yakinda</button></li>
+                    <br><br><br>
+                    <li><button><a href="#"><a>Yakinda</button></li>
+                    <br><br><br>
+                    <li><button><a href="#"><a>Yakinda</button></li>
+                    <br><br><br>
+                    <li><button><a href="#"><a>Yakinda</button></li>
+                </div>
+            </ul>
+        </div>
+</body>
+
+</html>
