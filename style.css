@@ -1,0 +1,2596 @@
+
+
+.icon-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    left: 124px;
+    top: 38px;
+    color: #fdfdfd;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.icon {
+    box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    text-decoration: none;
+    width: 260px;
+    height: 95px;
+    top: 13px;
+    left: 20px;
+    border-radius: 100px;
+    background-color: #8A1616;
+}
+
+.icon img{
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 25px;
+    left: 35px;
+}
+
+
+.button-texts a{
+    text-decoration: none;
+    color: #8A1616;
+}
+
+.navbar-nav {
+    background-color: #400000;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 125px;
+}
+
+body {
+    background-color: #400000;
+    overflow: hidden;
+}
+
+
+.navbar-buttons {
+    box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 13px;
+    left: 510px;
+    width: 504px;
+    height: 95px;
+    border-radius: 100px;
+    background-color: #8A1616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8A1616;
+    text-decoration-color: #8A1616;
+}
+
+.navbar-buttons button {
+    transition: background-color 0.6s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    border-radius: 100px;
+    border: none;
+    display: inline-block;
+    height: 65px;
+    width: 150px;
+    margin-right: 9px;
+}
+
+
+.navbar-buttons button:hover {
+    outline: none;
+    border: none;
+    background-color: #7E0202;
+    transition: background-color 0.6s ease;
+}
+
+.navbar-buttons button:hover {
+    outline: none;
+    border: none;
+    color: #eee;
+    transition: color 0.6s ease;
+}
+
+
+.menu-icon {
+    box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    right: 14px;
+}
+
+.category-background {
+    background-color: #8A1616;
+    position: absolute;
+    width: 260px;
+    height: 92px;
+    border-radius: 100px;
+    box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+    top: 15px;
+    right: 27px;
+}
+
+.kategoriler {
+    width: 200px;
+    box-shadow: 0 1px 16px 6px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    background-color: #8A1616;
+    position: fixed;
+    right: 27px;
+    top: 120px;
+    border-radius: 50px;
+    padding: 0;
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    width: 350px;
+    height: 580px;
+}
+
+
+.kategoriler button:hover{
+    background-color: #7E0202;
+    transition: background-color 0.4s ease;
+}
+
+.kategoriler button:hover{
+    color: #f9f9f9;
+    transition: color 0.6s ease;
+}
+
+.kategoriler button {
+    list-style: none;
+    position: absolute;
+    right: 23px;
+    margin-top: 25px;
+    border-radius: 50px;
+    box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+}
+
+
+.kategoriler.open {
+    background-color: #8A1616;
+    position: fixed;
+    right: 27px;
+    top: 120px;
+    max-height: 900px;
+    border: none;
+    width: 350px;
+    height: 580px;
+    border-radius: 50px;
+    box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+} 
+.kategoriler-btn {
+    box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.6s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: #7E0202;
+    border: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 65px;
+    position: absolute;
+    top: 13px;
+    right: 95px;
+}
+
+
+  
+.kategoriler-btn:hover {
+    outline: none;
+    border: none;
+    background-color: #7E0202;
+    transition: background-color 0.6s ease;
+}
+
+.kategoriler-btn:hover {
+    outline: none;
+    border: none;
+    color: #eee;
+    transition: color 0.6s ease;
+}
+
+
+.metin-taban {
+    flex: 1 1 200px;
+    background-color: #570101;
+    position: fixed;
+    top: 125px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.slogan {
+    position: absolute;
+    left: 480px;
+    top: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 50px;
+}
+
+.web-zaafiyet{
+    font-size: 26px;
+    position: fixed;
+    top: 225px;
+    right: 27px;
+    list-style: none;
+    color: #eee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yt {
+    visibility: hidden;
+}
+
+.web-zaafiyet a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #eee;
+}
+
+.web-title {
+    position: fixed;
+    top: 150px;
+    right: 27px;
+    font-size: 46px;
+    color: #eee;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr {
+    float: left;
+    position: fixed;
+    right: 315px;
+    top: 135px;
+    width: 2px;
+    height: 594px;
+    background-color: #eee;
+}
+
+.metin-yazisi {
+    color: #eee;
+    font-size: 27px;
+    position: absolute;
+    left: 31px;
+    top: 90px;
+    width: 1200px;
+}
+
+.uyeler-title{
+    position: absolute;
+    left: 445px;
+    display: flex;
+    top: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 50px;
+}
+
+.uyeler ul{
+    position: absolute;
+    left: 205px;
+    top: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 50px;
+}
+
+.sunucular ul{
+    position: absolute;
+    left: 485px;
+    top: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 50px;
+}
+
+.sunucular a{
+    text-decoration: none;
+    color: #eee;
+}
+
+.sunucular-title{
+    position: absolute;
+    left: 445px;
+    display: flex;
+    top: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 50px;
+}
+
+.isletim-sistemleri-title {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 40px;
+}
+
+.kali h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 35px;
+    position: absolute;
+    top: 95px;
+    left: 675px;
+}
+
+.kali img{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 175px;
+    left: 250px;
+}
+
+.kali p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 30px;
+    position: absolute;
+    top: 685px;
+    left: 200px;
+    width: 1100px;
+    text-align: center;
+}
+
+.nebios h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 35px;
+    position: absolute;
+    top: 1050px;
+    left: 560px;
+}
+
+.nebios img{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 1135px;
+    left: 230px;
+}
+
+.nebios p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 30px;
+    position: absolute;
+    top: 1640px;
+    left: 180px;
+    width: 1100px;
+    text-align: center;
+}
+
+.ubuntu h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 35px;
+    position: absolute;
+    top: 2240px;
+    left: 680px;
+}
+
+.ubuntu img {
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 2320px;
+    left: 250px;
+}
+
+.ubuntu p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 30px;
+    position: absolute;
+    top: 2830px;
+    left: 200px;
+    width: 1100px;
+    text-align: center;
+}
+
+.hacker-cesitleri-title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 40px;
+}
+
+.white-hat h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 35px;
+    text-align: center;
+}
+
+.white-hat img{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 125px;
+    left: 450px;
+}
+
+.white-hat p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 30px;
+    position: absolute;
+    top: 535px;
+    left: 200px;
+    width: 1100px;
+}
+
+.black-hat h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 35px;
+    position: absolute;
+    top: 1090px;
+    left: 600px;
+}
+
+.black-hat img {
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 1180px;
+    left: 390px;
+}
+
+.black-hat p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    top: 1510px;
+    left: 30px;
+    width: 1400px;
+}
+
+.shell h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 40px;
+    position: absolute;
+    left: 500px;
+}
+
+.shell p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #eee;
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+@media (max-width: 530px) {
+
+    .navbar-nav{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 90px;
+    }
+
+    .category-background{
+        width: 155px;
+        height: 45px;
+        position: fixed;
+        top: 81px;
+        left: 175px;
+    }
+
+    .uyeler-title{
+        position: absolute;
+        left: 155px;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .uyeler ul{
+        position: absolute;
+        left: 95px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 17px;
+    }
+
+    .kategoriler-btn {
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        color: #7E0202;
+        border: none;
+        border-radius: 100px;
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        top: 7px;
+        right: 55px;
+    }
+
+    .menu-icon {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 100px;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 6px;
+        right: 11px;
+    }
+
+    .icon-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        left: 124px;
+        top: 38px;
+        color: #fdfdfd;
+    }
+    
+    
+    .icon {
+        visibility: hidden;
+    }
+
+    .navbar-nav {
+        background-color: #400000;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        height: 125px;
+    }
+    
+    body {
+        background-color: #400000;
+        overflow: hidden;
+    }
+    
+    
+    .navbar-buttons {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 3px;
+        left: 117px;
+        width: 302px;
+        height: 65px;
+        border-radius: 100px;
+        background-color: #8A1616;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #8A1616;
+        text-decoration-color: #8A1616;
+    }
+    
+    .navbar-buttons button {
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        background-color: #f9f9f9;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        height: 45px;
+        width: 90px;
+        margin-right: 6px;
+    }
+    
+    .web-zaafiyet{    
+        visibility: hidden;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    .web-title {
+        visibility: hidden;
+    }
+
+    .slogan {
+        position: absolute;
+        top: 10px;
+        left: 177px;
+        font-size: 40px;
+    }
+    
+    .metin-yazisi {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 104px;
+    }
+
+    .yt a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        visibility: visible;
+        position: absolute;
+        font-size: 20px;
+        left: 140px;
+        top: 400px;
+        color: darkcyan;
+        text-decoration: none;
+    }
+    
+    .sunucular ul{
+        position: absolute;
+        left: 155px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .sunucular a{
+        text-decoration: none;
+        color: #eee;
+    }
+    
+    .sunucular-title{
+        position: absolute;
+        left: 125px;
+        display: flex;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+
+    .kategoriler {
+        box-shadow: 0 1px 16px 6px rgba(0, 0, 0, 0.2);
+        height: 200px;
+        background-color: #8A1616;
+        position: fixed;
+        right: 158px;
+        top: 136px;
+        border-radius: 50px;
+        padding: 0;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.6s;
+        width: 195px;
+        height: 245px;
+    }
+
+    
+
+    .kategoriler button {
+        list-style: none;
+        position: absolute;
+        right: 23px; 
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        background-color: #f9f9f9;
+        text-align: center;
+        transition: background-color 0.6s ease;
+        cursor: pointer;
+        width: 150px;
+        height: 30px;
+    }
+    
+    
+    .kategoriler.open {
+        background-color: #8A1616;
+        position: fixed;
+        right: 158px;
+        top: 136px;
+        max-height: 900px;
+        border: none;
+        width: 195px;
+        height: 245px;
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .hacker-cesitleri-title{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        top: 6px;
+        left: 116px;
+    }
+    
+    .white-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 65px;
+        left: 114px;
+        text-align: center;
+    }
+    
+    .white-hat img{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 130px;
+        left: 98px;
+    }
+    
+    .white-hat p{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 342px;
+        left: 100px;
+        width: 300px;
+    }
+    
+    .black-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 1190px;
+        left: 120px;
+    }
+    
+    .black-hat img {
+        width: 280px;
+        height: 200px;
+        position: absolute;
+        top: 1260px;
+        left: 115px;
+    }
+    
+    .black-hat p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        top: 1467px;
+        left: 107px;
+        width: 300px;
+    }
+
+    .isletim-sistemleri-title {
+        position: absolute;
+        top: 10px;
+        left: 119px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 35px;
+    }
+    
+    .kali h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 55px;
+        left: 183px;
+    }
+    
+    .kali img{
+        width: 300px;
+        height: 160px;
+        position: absolute;
+        top: 125px;
+        left: 100px;
+    }
+    
+    .kali p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 295px;
+        left: 100px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .nebios h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 25px;
+        position: absolute;
+        top: 820px;
+        left: 114px;
+    }
+    
+    .nebios img{
+        width: 300px;
+        height: 180px;
+        position: absolute;
+        top: 885px;
+        left: 108px;
+    }
+    
+    .nebios p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 1070px;
+        left: 107px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .ubuntu h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 2050px;
+        left: 210px;
+    }
+    
+    .ubuntu img {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 2110px;
+        left: 100px;
+    }
+    
+    .ubuntu p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 2320px;
+        left: 106px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .shell h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        left: 145px;
+    }
+    
+    .shell p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 12px;
+        position: absolute;
+        top: 100px;
+        left: 115px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 465px) {
+
+    .navbar-nav{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 90px;
+    }
+
+    .category-background{
+        width: 155px;
+        height: 45px;
+        position: fixed;
+        top: 81px;
+        left: 150px;
+    }
+
+    .uyeler-title{
+        position: absolute;
+        left: 75px;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .uyeler ul{
+        position: absolute;
+        left: 35px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 17px;
+    }
+
+    .kategoriler-btn {
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        color: #7E0202;
+        border: none;
+        border-radius: 100px;
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        top: 7px;
+        right: 55px;
+    }
+
+    .menu-icon {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 100px;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 6px;
+        right: 11px;
+    }
+
+    .icon-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        left: 124px;
+        top: 38px;
+        color: #fdfdfd;
+    }
+    
+    
+    .icon {
+        visibility: hidden;
+    }
+
+    .navbar-nav {
+        background-color: #400000;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        height: 125px;
+    }
+    
+    body {
+        background-color: #400000;
+        overflow: hidden;
+    }
+    
+    
+    .navbar-buttons {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 3px;
+        left: 87px;
+        width: 302px;
+        height: 65px;
+        border-radius: 100px;
+        background-color: #8A1616;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #8A1616;
+        text-decoration-color: #8A1616;
+    }
+    
+    .navbar-buttons button {
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        background-color: #f9f9f9;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        height: 45px;
+        width: 90px;
+        margin-right: 6px;
+    }
+    
+    .web-zaafiyet{    
+        visibility: hidden;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    .web-title {
+        visibility: hidden;
+    }
+
+    .slogan {
+        position: absolute;
+        top: 10px;
+        left: 147px;
+        font-size: 40px;
+    }
+    
+    .metin-yazisi {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 74px;
+    }
+
+    .yt a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        visibility: visible;
+        position: absolute;
+        font-size: 20px;
+        left: 140px;
+        top: 400px;
+        color: darkcyan;
+        text-decoration: none;
+    }
+    
+    .sunucular ul{
+        position: absolute;
+        left: 125px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .sunucular a{
+        text-decoration: none;
+        color: #eee;
+    }
+    
+    .sunucular-title{
+        position: absolute;
+        left: 95px;
+        display: flex;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+
+    .kategoriler {
+        box-shadow: 0 1px 16px 6px rgba(0, 0, 0, 0.2);
+        height: 200px;
+        background-color: #8A1616;
+        position: fixed;
+        right: 126px;
+        top: 136px;
+        border-radius: 50px;
+        padding: 0;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.6s;
+        width: 195px;
+        height: 245px;
+    }
+
+    
+
+    .kategoriler button {
+        list-style: none;
+        position: absolute;
+        right: 23px; 
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        background-color: #f9f9f9;
+        text-align: center;
+        transition: background-color 0.6s ease;
+        cursor: pointer;
+        width: 150px;
+        height: 30px;
+    }
+    
+    
+    .kategoriler.open {
+        background-color: #8A1616;
+        position: fixed;
+        right: 126px;
+        top: 136px;
+        max-height: 900px;
+        border: none;
+        width: 195px;
+        height: 245px;
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .hacker-cesitleri-title{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        top: 6px;
+        left: 93px;
+    }
+    
+    .white-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 65px;
+        left: 87px;
+        text-align: center;
+    }
+    
+    .white-hat img{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 130px;
+        left: 75px;
+    }
+    
+    .white-hat p{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 342px;
+        left: 80px;
+        width: 300px;
+    }
+    
+    .black-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 1190px;
+        left: 90px;
+    }
+    
+    .black-hat img {
+        width: 280px;
+        height: 200px;
+        position: absolute;
+        top: 1260px;
+        left: 85px;
+    }
+    
+    .black-hat p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        top: 1467px;
+        left: 77px;
+        width: 300px;
+    }
+
+    .isletim-sistemleri-title {
+        position: absolute;
+        top: 10px;
+        left: 89px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 35px;
+    }
+    
+    .kali h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 55px;
+        left: 163px;
+    }
+    
+    .kali img{
+        width: 300px;
+        height: 160px;
+        position: absolute;
+        top: 125px;
+        left: 76px;
+    }
+    
+    .kali p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 295px;
+        left: 76px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .nebios h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 25px;
+        position: absolute;
+        top: 820px;
+        left: 87px;
+    }
+    
+    .nebios img{
+        width: 300px;
+        height: 180px;
+        position: absolute;
+        top: 885px;
+        left: 78px;
+    }
+    
+    .nebios p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 1070px;
+        left: 77px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .ubuntu h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 2050px;
+        left: 180px;
+    }
+    
+    .ubuntu img {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 2110px;
+        left: 76px;
+    }
+    
+    .ubuntu p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 2320px;
+        left: 78px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .shell h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        left: 115px;
+    }
+    
+    .shell p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 12px;
+        position: absolute;
+        top: 100px;
+        left: 85px;
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 420px) {
+
+    .navbar-nav{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 90px;
+    }
+
+    .category-background{
+        width: 155px;
+        height: 45px;
+        position: fixed;
+        top: 81px;
+        left: 120px;
+    }
+
+    .uyeler-title{
+        position: absolute;
+        left: 75px;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .uyeler ul{
+        position: absolute;
+        left: 35px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 17px;
+    }
+
+    .kategoriler-btn {
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        color: #7E0202;
+        border: none;
+        border-radius: 100px;
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        top: 7px;
+        right: 55px;
+    }
+
+    .menu-icon {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 100px;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 6px;
+        right: 11px;
+    }
+
+    .icon-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        left: 124px;
+        top: 38px;
+        color: #fdfdfd;
+    }
+    
+    
+    .icon {
+        visibility: hidden;
+    }
+
+    .navbar-nav {
+        background-color: #400000;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        height: 125px;
+    }
+    
+    body {
+        background-color: #400000;
+        overflow: hidden;
+    }
+    
+    
+    .navbar-buttons {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 3px;
+        left: 62px;
+        width: 302px;
+        height: 65px;
+        border-radius: 100px;
+        background-color: #8A1616;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #8A1616;
+        text-decoration-color: #8A1616;
+    }
+    
+    .navbar-buttons button {
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        background-color: #f9f9f9;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        height: 45px;
+        width: 90px;
+        margin-right: 6px;
+    }
+    
+    .web-zaafiyet{    
+        visibility: hidden;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    .web-title {
+        visibility: hidden;
+    }
+
+    .slogan {
+        position: absolute;
+        top: 10px;
+        left: 127px;
+        font-size: 40px;
+    }
+    
+    .metin-yazisi {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 54px;
+    }
+
+    .yt a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        visibility: visible;
+        position: absolute;
+        font-size: 20px;
+        left: 140px;
+        top: 400px;
+        color: darkcyan;
+        text-decoration: none;
+    }
+    
+    .sunucular ul{
+        position: absolute;
+        left: 105px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .sunucular a{
+        text-decoration: none;
+        color: #eee;
+    }
+    
+    .sunucular-title{
+        position: absolute;
+        left: 75px;
+        display: flex;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+
+    .kategoriler {
+        box-shadow: 0 1px 16px 6px rgba(0, 0, 0, 0.2);
+        height: 200px;
+        background-color: #8A1616;
+        position: fixed;
+        right: 100px;
+        top: 136px;
+        border-radius: 50px;
+        padding: 0;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.6s;
+        width: 195px;
+        height: 245px;
+    }
+
+    
+
+    .kategoriler button {
+        list-style: none;
+        position: absolute;
+        right: 23px; 
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        background-color: #f9f9f9;
+        text-align: center;
+        transition: background-color 0.6s ease;
+        cursor: pointer;
+        width: 150px;
+        height: 30px;
+    }
+    
+    
+    .kategoriler.open {
+        background-color: #8A1616;
+        position: fixed;
+        right: 100px;
+        top: 136px;
+        max-height: 900px;
+        border: none;
+        width: 195px;
+        height: 245px;
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .hacker-cesitleri-title{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        top: 6px;
+        left: 62px;
+    }
+    
+    .white-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 65px;
+        left: 58px;
+        text-align: center;
+    }
+    
+    .white-hat img{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 130px;
+        left: 46px;
+    }
+    
+    .white-hat p{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 342px;
+        left: 50px;
+        width: 300px;
+    }
+    
+    .black-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 1190px;
+        left: 64px;
+    }
+    
+    .black-hat img {
+        width: 280px;
+        height: 200px;
+        position: absolute;
+        top: 1260px;
+        left: 58px;
+    }
+    
+    .black-hat p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        top: 1467px;
+        left: 53px;
+        width: 300px;
+    }
+
+    .isletim-sistemleri-title {
+        position: absolute;
+        top: 10px;
+        left: 67px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 35px;
+    }
+    
+    .kali h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 55px;
+        left: 133px;
+    }
+    
+    .kali img{
+        width: 300px;
+        height: 160px;
+        position: absolute;
+        top: 125px;
+        left: 49px;
+    }
+    
+    .kali p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 295px;
+        left: 48px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .nebios h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 25px;
+        position: absolute;
+        top: 820px;
+        left: 57px;
+    }
+    
+    .nebios img{
+        width: 300px;
+        height: 180px;
+        position: absolute;
+        top: 885px;
+        left: 50px;
+    }
+    
+    .nebios p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 1070px;
+        left: 51px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .ubuntu h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 2050px;
+        left: 155px;
+    }
+    
+    .ubuntu img {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 2110px;
+        left: 49px;
+    }
+    
+    .ubuntu p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 2320px;
+        left: 48px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .shell h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        left: 87px;
+    }
+    
+    .shell p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 12px;
+        position: absolute;
+        top: 100px;
+        left: 55px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 370px) {
+
+    .navbar-nav{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 90px;
+    }
+
+    .category-background{
+        width: 155px;
+        height: 45px;
+        position: fixed;
+        top: 81px;
+        left: 105px;
+    }
+
+    .uyeler-title{
+        position: absolute;
+        left: 55px;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .uyeler ul{
+        position: absolute;
+        left: 15px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 17px;
+    }
+
+    .kategoriler-btn {
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        color: #7E0202;
+        border: none;
+        border-radius: 100px;
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        top: 7px;
+        right: 55px;
+    }
+
+    .menu-icon {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 100px;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 6px;
+        right: 11px;
+    }
+
+    .icon-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        left: 124px;
+        top: 38px;
+        color: #fdfdfd;
+    }
+    
+    
+    .icon {
+        visibility: hidden;
+    }
+
+    .navbar-nav {
+        background-color: #400000;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        height: 125px;
+    }
+    
+    body {
+        background-color: #400000;
+        overflow: hidden;
+    }
+    
+    
+    .navbar-buttons {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 3px;
+        left: 40px;
+        width: 302px;
+        height: 65px;
+        border-radius: 100px;
+        background-color: #8A1616;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #8A1616;
+        text-decoration-color: #8A1616;
+    }
+    
+    .navbar-buttons button {
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        background-color: #f9f9f9;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        height: 45px;
+        width: 90px;
+        margin-right: 6px;
+    }
+    
+    .web-zaafiyet{    
+        visibility: hidden;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    .web-title {
+        visibility: hidden;
+    }
+
+    .slogan {
+        position: absolute;
+        top: 10px;
+        left: 97px;
+        font-size: 40px;
+    }
+    
+    .metin-yazisi {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 28px;
+    }
+
+    .yt a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        visibility: visible;
+        position: absolute;
+        font-size: 20px;
+        left: 140px;
+        top: 400px;
+        color: darkcyan;
+        text-decoration: none;
+    }
+    
+    .sunucular ul{
+        position: absolute;
+        left: 85px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .sunucular a{
+        text-decoration: none;
+        color: #eee;
+    }
+    
+    .sunucular-title{
+        position: absolute;
+        left: 55px;
+        display: flex;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+
+    .kategoriler {
+        box-shadow: 0 1px 16px 6px rgba(0, 0, 0, 0.2);
+        height: 200px;
+        background-color: #8A1616;
+        position: fixed;
+        right: 77px;
+        top: 136px;
+        border-radius: 50px;
+        padding: 0;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.6s;
+        width: 195px;
+        height: 245px;
+    }
+
+    
+
+    .kategoriler button {
+        list-style: none;
+        position: absolute;
+        right: 23px; 
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        background-color: #f9f9f9;
+        text-align: center;
+        transition: background-color 0.6s ease;
+        cursor: pointer;
+        width: 150px;
+        height: 30px;
+    }
+    
+    
+    .kategoriler.open {
+        background-color: #8A1616;
+        position: fixed;
+        right: 77px;
+        top: 136px;
+        max-height: 900px;
+        border: none;
+        width: 195px;
+        height: 245px;
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .hacker-cesitleri-title{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        top: 6px;
+        left: 42px;
+    }
+    
+    .white-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 65px;
+        left: 38px;
+        text-align: center;
+    }
+    
+    .white-hat img{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 130px;
+        left: 29px;
+    }
+    
+    .white-hat p{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 342px;
+        left: 30px;
+        width: 300px;
+    }
+    
+    .black-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 1190px;
+        left: 44px;
+    }
+    
+    .black-hat img {
+        width: 280px;
+        height: 200px;
+        position: absolute;
+        top: 1260px;
+        left: 38px;
+    }
+    
+    .black-hat p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        top: 1467px;
+        left: 33px;
+        width: 300px;
+    }
+
+    .isletim-sistemleri-title {
+        position: absolute;
+        top: 10px;
+        left: 47px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 35px;
+    }
+    
+    .kali h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 55px;
+        left: 113px;
+    }
+    
+    .kali img{
+        width: 300px;
+        height: 160px;
+        position: absolute;
+        top: 125px;
+        left: 26px;
+    }
+    
+    .kali p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 295px;
+        left: 28px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .nebios h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 25px;
+        position: absolute;
+        top: 820px;
+        left: 37px;
+    }
+    
+    .nebios img{
+        width: 300px;
+        height: 180px;
+        position: absolute;
+        top: 885px;
+        left: 28px;
+    }
+    
+    .nebios p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 1070px;
+        left: 29px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .ubuntu h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 2050px;
+        left: 135px;
+    }
+    
+    .ubuntu img {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 2110px;
+        left: 26px;
+    }
+    
+    .ubuntu p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 2320px;
+        left: 28px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .shell h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        left: 53px;
+    }
+    
+    .shell p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 12px;
+        position: absolute;
+        top: 100px;
+        left: 15px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .navbar-nav{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 90px;
+    }
+
+    .category-background{
+        width: 155px;
+        height: 45px;
+        position: fixed;
+        top: 81px;
+        left: 85px;
+    }
+
+    .uyeler-title{
+        position: absolute;
+        left: 55px;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .uyeler ul{
+        position: absolute;
+        left: 15px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 17px;
+    }
+
+    .kategoriler-btn {
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        color: #7E0202;
+        border: none;
+        border-radius: 100px;
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        top: 7px;
+        right: 55px;
+    }
+
+    .menu-icon {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        background-color: #ffffff;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 100px;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 6px;
+        right: 11px;
+    }
+
+    .icon-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        left: 124px;
+        top: 38px;
+        color: #fdfdfd;
+    }
+    
+    
+    .icon {
+        visibility: hidden;
+    }
+
+    .navbar-nav {
+        background-color: #400000;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        height: 125px;
+    }
+    
+    body {
+        background-color: #400000;
+        overflow: hidden;
+    }
+    
+    
+    .navbar-buttons {
+        box-shadow: 0 0px 13px 9px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 3px;
+        left: 26px;
+        width: 302px;
+        height: 65px;
+        border-radius: 100px;
+        background-color: #8A1616;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #8A1616;
+        text-decoration-color: #8A1616;
+    }
+    
+    .navbar-buttons button {
+        transition: background-color 0.6s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        background-color: #f9f9f9;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        height: 45px;
+        width: 90px;
+        margin-right: 6px;
+    }
+    
+    .web-zaafiyet{    
+        visibility: hidden;
+    }
+
+    hr {
+        visibility: hidden;
+    }
+
+    .web-title {
+        visibility: hidden;
+    }
+
+    .slogan {
+        position: absolute;
+        top: 10px;
+        left: 87px;
+        font-size: 40px;
+    }
+    
+    .metin-yazisi {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        width: 300px;
+        position: absolute;
+        top: 80px;
+        left: 14px;
+    }
+
+    .yt a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        visibility: visible;
+        position: absolute;
+        font-size: 20px;
+        left: 140px;
+        top: 400px;
+        color: darkcyan;
+        text-decoration: none;
+    }
+    
+    .sunucular ul{
+        position: absolute;
+        left: 70px;
+        top: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+    
+    .sunucular a{
+        text-decoration: none;
+        color: #eee;
+    }
+    
+    .sunucular-title{
+        position: absolute;
+        left: 35px;
+        display: flex;
+        top: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+    }
+
+    .kategoriler {
+        box-shadow: 0 1px 16px 6px rgba(0, 0, 0, 0.2);
+        height: 200px;
+        background-color: #8A1616;
+        position: fixed;
+        right: 64px;
+        top: 136px;
+        border-radius: 50px;
+        padding: 0;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.6s;
+        width: 195px;
+        height: 245px;
+    }
+
+    
+
+    .kategoriler button {
+        list-style: none;
+        position: absolute;
+        right: 23px; 
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+        border: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        background-color: #f9f9f9;
+        text-align: center;
+        transition: background-color 0.6s ease;
+        cursor: pointer;
+        width: 150px;
+        height: 30px;
+    }
+    
+    
+    .kategoriler.open {
+        background-color: #8A1616;
+        position: fixed;
+        right: 64px;
+        top: 136px;
+        max-height: 900px;
+        border: none;
+        width: 195px;
+        height: 245px;
+        border-radius: 50px;
+        box-shadow: 0 1px 10px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .hacker-cesitleri-title{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        top: 6px;
+        left: 30px;
+    }
+    
+    .white-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 65px;
+        left: 25px;
+        text-align: center;
+    }
+    
+    .white-hat img{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 130px;
+        left: 13px;
+    }
+    
+    .white-hat p{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 342px;
+        left: 15px;
+        width: 300px;
+    }
+    
+    .black-hat h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 1190px;
+        left: 26px;
+    }
+    
+    .black-hat img {
+        width: 280px;
+        height: 200px;
+        position: absolute;
+        top: 1260px;
+        left: 23px;
+    }
+    
+    .black-hat p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        top: 1467px;
+        left: 18px;
+        width: 300px;
+    }
+
+    .isletim-sistemleri-title {
+        position: absolute;
+        top: 10px;
+        left: 32px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 35px;
+    }
+    
+    .kali h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 55px;
+        left: 98px;
+    }
+    
+    .kali img{
+        width: 300px;
+        height: 160px;
+        position: absolute;
+        top: 125px;
+        left: 13px;
+    }
+    
+    .kali p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 295px;
+        left: 15px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .nebios h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 25px;
+        position: absolute;
+        top: 820px;
+        left: 22px;
+    }
+    
+    .nebios img{
+        width: 300px;
+        height: 180px;
+        position: absolute;
+        top: 885px;
+        left: 14px;
+    }
+    
+    .nebios p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 1070px;
+        left: 15px;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .ubuntu h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 30px;
+        position: absolute;
+        top: 2050px;
+        left: 115px;
+    }
+    
+    .ubuntu img {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 2110px;
+        left: 12px;
+    }
+    
+    .ubuntu p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 20px;
+        position: absolute;
+        top: 2320px;
+        left: 13px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .shell h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 40px;
+        position: absolute;
+        left: 53px;
+    }
+    
+    .shell p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #eee;
+        font-size: 12px;
+        position: absolute;
+        top: 100px;
+        left: 15px;
+        width: 300px;
+    }
+
+}
